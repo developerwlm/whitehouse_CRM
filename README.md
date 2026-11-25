@@ -300,3 +300,5 @@ sudo systemctl reload nginx
 ---
 
 © 2026 Whitehouse Skill Development Institute, Madurai. Built with the MERN Stack.
+#   w h i t e h o u s e _ C R M  
+ 
