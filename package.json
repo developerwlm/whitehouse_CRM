@@ -1,0 +1,19 @@
+{
+  "name": "whitehouse-crm-root",
+  "version": "1.0.0",
+  "description": "Whitehouse Skill Development Institute, Madurai – Complete Integrated MERN CRM",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "create:admin": "node backend/src/seeds/createAdminUser.js",
+    "insert:official": "node backend/src/scripts/insertOfficialInstituteData.js",
+    "wipe:all": "node backend/src/seeds/wipeDatabaseCompletely.js",
+    "test:acceptance": "node backend/src/tests/runAllAcceptanceTests.js",
+    "build:frontend": "npm run build --prefix frontend",
+    "start:backend": "node backend/src/server.js",
+    "dev:backend": "node backend/src/server.js",
+    "dev:frontend": "npm run dev --prefix frontend"
+  },
+  "keywords": ["crm", "institute", "mern", "whitehouse", "madurai", "meta-ads"],
+  "author": "Whitehouse Skill Development Institute",
+  "license": "ISC"
+}
